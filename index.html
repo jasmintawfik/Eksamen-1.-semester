@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8"> <!-- Sørger for korrekt visning af danske tegn -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Gør siden mobilvenlig -->
+    <title>Forside</title> <!-- Titel i browserfanen -->
+
+    <link rel="stylesheet" href="index.css"> <!-- Link til din egen CSS-fil -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"> <!-- Bootstrap Icons -->
+</head>
+<body>
+
+<!-- Header med logo øverst på siden -->
+<header class="header">
+    <img src="overskrift.png" alt="Logo" class="logo">
+</header>
+
+<!-- Wrapper for hele forsidens indhold -->
+<div class="alle">
+
+    <!-- En citatboks med fokus på ro -->
+    <div class="bokscitat" aria-label="Citat om ro">
+        <h1>Ro starter med en venlig tanke til dig selv</h1>
+    </div>
+
+    <!-- Link til malebøger med billede og overskrift -->
+    <div class="boks2link">
+        <a class="linkboks" href="https://www.bog-ide.dk/hobby/mal-og-tegn/maleboeger/cozy aria-label=">
+            <img src="art.png" alt="art" class="art">
+            <h2>Kreativ ro – prøv en af vores stress relief malebøger</h2>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Sektion med link til AI-chat og ekstra knap -->
+    <div class="Ai">
+        <a class="Ai2" href="underside2.html" aria-label="Del dine tanker">
+            <h2>Del dine tanker – AI lytter uden at dømme</h2>
+        </a>
+
+        <div>
+            <img src="chat.png" alt="art" class="artT">
+            <a href="underside1.html" class="ai-knap-test">Snak med Ai nu</a>
+        </div>
+    </div>
+
+    <!-- Link til side hvor man kan dele oplevelser -->
+    <div class="boks4underside2">
+        <a class="linkboks" href="underside1.html" aria-label="Del dine oplevelser">
+            <img src="communication.png" alt="art" class="art">
+            <h2>Del dine oplevelser med en praktikant som dig</h2>
+        </a>
+    </div>
+
+</div>
+
+<!-- Navigation i bunden med Bootstrap ikoner -->
+<nav class="menu">
+    <a href="index.html"><i class="bi bi-house"></i></a>
+    <a href="underside1.html"><i class="bi bi-chat-left-text"></i></a>
+    <a href="underside2.html"><i class="bi bi-robot"></i></a>
+</nav>
+
+</body>
+</html>
